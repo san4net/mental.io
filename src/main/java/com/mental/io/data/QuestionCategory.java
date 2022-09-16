@@ -1,0 +1,15 @@
+package com.mental.io.data;
+
+public enum QuestionCategory {
+    AIMLESS_FUTURE,
+    BAD_THINGS_HAPPENING,
+    CHILDBIRTH,
+    FINANCE,
+    FRIENDS_FAMILY_AND_SOCIETY,
+    GENERAL,
+    MEDICAL_CONSULTATIONS,
+    PERFORMANCE,
+    PREGNANCY_SYMPTOMS,
+    PREPARING_FOR_BABY,
+    SOCIAL
+}

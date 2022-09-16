@@ -1,0 +1,2 @@
+INSERT INTO USERS(USER_NAME, PASSWORD) VALUES('test','password')
+

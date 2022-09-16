@@ -1,0 +1,23 @@
+server:
+   port: 8085
+spring:
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mental-svc-db?stringtype=unspecified
+    username: postgres
+    password: password
+    driverClassName: org.postgresql.Driver
+    hikari:
+      data-source-properties:
+         stringtype: unspecified
+  sql:
+    init:
+      platform: postgres
+      mode: always
+
+
+#spring.jpa.hibernate.ddl-auto=none
